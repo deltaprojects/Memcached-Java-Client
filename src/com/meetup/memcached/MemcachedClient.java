@@ -1635,7 +1635,7 @@ public class MemcachedClient {
 	 * Pass a SockIO object which is ready to receive data and a HashMap<br/>
 	 * to store the results.
 	 * 
-	 * @param sock socket waiting to pass back data
+	 * @param input socket waiting to pass back data
 	 * @param hm hashmap to store data into
 	 * @param asString if true, and if we are using NativehHandler, return string val
 	 * @throws IOException if io exception happens while reading from socket
